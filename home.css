@@ -19,7 +19,10 @@ body{
 /******************CLASES************************/
 
 
-.cont-navegador{
-    justify-content: center !important;
+.cont-carousel{
+    background-color: #ccc;
+}
 
+.sin {
+    text-decoration: none;
 }
