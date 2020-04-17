@@ -1,0 +1,48 @@
+/******************SELECTORES************************/
+
+body{
+    background-color: rgb(223, 223, 219);   
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************CLASES************************/
+
+
+.cont-navegador{
+    justify-content: center !important;
+
+}
+.articulos div {
+    background: ivory;
+}
+.sumario div {
+    background: lightblue;
+    
+}
+.sinmargendcha {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.sinmargenizq {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.sumario h3 {
+    color:solid rgb(19, 18, 18);
+}
+.bordeazul div {
+    border-top: 1px solid rgb(22, 41, 214);
+}
