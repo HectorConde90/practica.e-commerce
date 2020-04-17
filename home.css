@@ -5,6 +5,12 @@ body{
 }
 
 
+/*
+h1{
+    font-size: 25px;
+}
+
+*/
 
 
 
@@ -26,3 +32,10 @@ body{
 .sin {
     text-decoration: none;
 }
+.precio {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 4px;
+}
+
