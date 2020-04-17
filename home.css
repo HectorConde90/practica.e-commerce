@@ -1,6 +1,7 @@
 /******************SELECTORES************************/
 
 body{
+    background-color: rgb(13, 12, 20);
     
 }
 
@@ -39,3 +40,24 @@ h1{
     margin-left: 4px;
 }
 
+.sep{
+    padding-top: 60px;
+    margin-top: 15px;
+      
+}
+.sep h2{
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.br-radius-top, .br-radius-bot{
+    box-shadow: 2px 2px 5px whitesmoke, -2px -2px 5px white;
+    
+}
+.br-radius-top{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.br-radius-bot{
+    border-radius: 0px 0px 15px 15px;
+}
