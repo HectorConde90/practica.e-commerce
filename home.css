@@ -117,3 +117,27 @@ body{
 .btn-pad{
     padding-bottom: 10px;
 }
+
+
+
+
+
+
+
+/******************MEDIA***********************/
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .opciones {
+      flex-flow: column wrap;
+    }
+    .precio {
+      margin-top: 4px;
+    }
+
+  }
+
+</style>
