@@ -1,17 +1,14 @@
 /******************SELECTORES************************/
 
 body{
-    background-color: rgb(13, 12, 20);
+    background-color: rgb(13, 12, 20); 
+
+   
     
 }
 
 
-/*
-h1{
-    font-size: 25px;
-}
 
-*/
 
 
 
@@ -26,31 +23,44 @@ h1{
 /******************CLASES************************/
 
 
-.cont-carousel{
-    background-color: #ccc;
-}
 
 .sin {
     text-decoration: none;
 }
+
 .precio {
     text-align: center;
     padding-top: 4px;
     padding-bottom: 4px;
     margin-left: 4px;
 }
+.precio-reverse{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 4px;
 
-.sep{
+}
+
+
+.sep, .sep2{
     padding-top: 60px;
-    margin-top: 15px;
+   
+    padding-bottom: 15px;
       
 }
-.sep h2{
-    letter-spacing: 5px;
+.sep2{
+    margin-top: 0px;
+}
+.sep{
+     margin-top: 35px;
+}
+.sep h2, .sep2 h2{
+    letter-spacing: 12px;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
-.br-radius-top, .br-radius-bot{
+.cent{
     box-shadow: 2px 2px 5px whitesmoke, -2px -2px 5px white;
     
 }
@@ -60,4 +70,50 @@ h1{
 
 .br-radius-bot{
     border-radius: 0px 0px 15px 15px;
+}
+
+
+.bg {
+    background-color: darkslategray;
+    border-radius: 10px;
+    width: 45px;
+    height: 30px;
+    color: whitesmoke;
+
+}
+
+.align-center{
+    text-align: center;
+}
+
+
+
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
+.titulo-novedades{
+    font-size: 20px;
+}
+
+.p-novedades{
+    text-align: justify;
+    padding-top: 8px;
+}
+
+.br-white{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.marg-top{
+    margin-top: 20px;
+}
+
+.btn-pad{
+    padding-bottom: 10px;
 }

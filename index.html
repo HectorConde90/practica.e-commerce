@@ -21,7 +21,9 @@
 
   <!------------ NAVBAR------------>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><h1>Idea</h1></a>
+    <a class="navbar-brand" href="#">
+      <h1>Idea</h1>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -57,13 +59,13 @@
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://previews.123rf.com/images/olga968/olga9681711/olga968171100016/89687610-technology-christmas-banner-cyber-monday-sale-background-bright-neon-simple-design-elements-on-black.jpg" height="600px" class="d-block w-100 " alt="...">
+        <img src="imghome/1.jpg" class="d-block w-100 " alt="...">
       </div>
       <div class="carousel-item">
-        <img src="https://www.npgtech.com/files/8515/8090/1543/0_Banner_latelevisiondelfuturo_twitter.jpg" height="600px" class="d-block w-100 " alt="...">
+        <img src="imghome/2.jpg" class="d-block w-100 " alt="...">
       </div>
       <div class="carousel-item">
-        <img src="https://www.info-computer.com/blog/wp-content/uploads/2018/05/intel-core-i9-gaming-pcs-pcs-banner-980px-v1-800x310.jpg" height="600px" class="d-block w-100 " alt="...">
+        <img src="imghome/3.jpg" class="d-block w-100 " alt="...">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -78,11 +80,12 @@
 
 
 
-                     <!-------                       CARDS                              ------->
+  <!-------                       CARDS                              ------->
 
-                     <!--         separados                  -->
-  <div class="br-radius-top bg-light sep container">
-    <div class="row">
+  <!--         separados                  -->
+
+  <div class="cent br-radius-top bg-light sep container">
+    <div class="align-center row">
       <div class="col-12">
         <h2>MEJORES OFERTAS</h2>
 
@@ -93,60 +96,85 @@
   </div>
 
 
-                     <!--------------       PRIMERA PARTE                     -------------->
-  <div class="container bg-light br-radius-bot">
+  <!--------------       PRIMERA PARTE                     -------------->
+  <div class="container bg-light cent">
     <div class="row">
-      <div class="col-12 col-lg-4">
-        
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595C"/><text x="50%" y="50%" fill="#ECEEEF" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='checkout.html'">Comprar ya</a></button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='productos.html'">Ver producto</button>
-                </div>
-                <small class="text-black bg text-center precio">100 €</small>
-                <small class="text-muted">7 mins</small>
-              </div>
-            </div>
-          </div>
-        
-      </div>
-      <div class="col-12 col-lg-4">
+      <div class="col-12 col-md-4">
+
         <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595C"/><text x="50%" y="50%" fill="#ECEEEF" dy=".3em">Thumbnail</text></svg>
+          <img src="imgproductos/portatil.jpg" onclick="location.href='productos.html'"
+            class="pointer bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="href" aria-label="Placeholder: Portatil">
+
+          <rect width="100%" height="100%" fill="#55595C" />
+          </svg>
           <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='checkout.html'">Comprar ya</a></button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='productos.html'">Ver producto</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary"
+                  onclick="location.href='checkout.html'">Comprar ya</a></button>
+                <button type="button" class="btn btn-sm btn-outline-secondary"
+                  onclick="location.href='productos.html'">Ver producto</button>
               </div>
-              <small class="text-muted">2 mins</small>
+              <small class="text-black bg text-center precio">100 €</small>
             </div>
           </div>
         </div>
-        
-        
       </div>
-      <div class="col-12 col-lg-4">
+      <!---->
+      <div class="col-12 col-md-4">
+
         <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595C"/><text x="50%" y="50%" fill="#ECEEEF" dy=".3em">Thumbnail</text></svg>
+          <img src="imgproductos/portatil.jpg" onclick="location.href='productos.html'"
+            class="pointer bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="href" aria-label="Placeholder: Portatil">
+
+          <rect width="100%" height="100%" fill="#55595C" />
+          </svg>
           <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='checkout.html'">Comprar ya</a></button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='productos.html'">Ver producto</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary"
+                  onclick="location.href='checkout.html'">Comprar ya</a></button>
+                <button type="button" class="btn btn-sm btn-outline-secondary"
+                  onclick="location.href='productos.html'">Ver producto</button>
               </div>
-              <small class="text-muted">15 mins</small>
+              <small class="text-black bg text-center precio">100 €</small>
             </div>
           </div>
         </div>
-        
       </div>
+      <!---->
+      <div class="col-12 col-md-4">
+
+        <div class="card mb-4 shadow-sm">
+          <img src="imgproductos/portatil.jpg" onclick="location.href='productos.html'"
+            class="pointer bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="href" aria-label="Placeholder: Portatil">
+
+          <rect width="100%" height="100%" fill="#55595C" />
+          </svg>
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary"
+                  onclick="location.href='checkout.html'">Comprar ya</a></button>
+                <button type="button" class="btn btn-sm btn-outline-secondary"
+                  onclick="location.href='productos.html'">Ver producto</button>
+              </div>
+              <small class="text-black bg text-center precio">100 €</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---->
 
     </div>
 
@@ -156,6 +184,175 @@
 
   <!--------------       SEGUNDA PARTE                     -------------->
 
+  <!--         separados                  -->
+  <div class="cent bg-light sep2 container">
+    <div class="align-center row">
+      <div class="col-12">
+        <h2>NOVEDADES</h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!---------------------PRODUCTOS 2------------------------>
+
+  <div class="container bg-light">
+    <div class="row">
+      <!---->
+      <div class="col-12 col-lg-6 marg-top">
+        <div class="container">
+          <div class="row br-white shadow-sm">
+            <div class="col-12 align-center">
+              <h2 class="titulo-novedades">Portatil MSI 1</h2>
+            </div>
+            <div class="col-12 col-md-6">
+  
+              <p class="p-novedades">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group btn-pad">
+                  <small class="text-black bg text-center precio-reverse">100 €</small>
+
+                  <div class="btn-group btn-pad">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                      onclick="location.href='checkout.html'">Comprar ya</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                      onclick="location.href='productos.html'">Ver producto</button>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <img class="pointer" src="imghome/portail1.jpg" onclick="location.href='productos.html'">
+            </div>
+          </div>
+        </div>
+      </div>
+     
+     
+     
+     
+      <!---->
+      <div class="col-12 col-lg-6 marg-top">
+        <div class="container">
+          <div class="row br-white shadow-sm">
+            <div class="col-12 align-center">
+              <h2 class="titulo-novedades">Portatil MSI 2</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <img class="pointer" src="imghome/portail1.jpg" onclick="location.href='productos.html'">
+            </div>
+            <div class="col-12 col-md-6">
+
+              <p class="p-novedades">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group btn-pad">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"
+                    onclick="location.href='checkout.html'">Comprar ya</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"
+                    onclick="location.href='productos.html'">Ver producto</button>
+                </div>
+                <small class="text-black bg text-center precio">100 €</small>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!---->
+
+    </div>
+
+  </div>
+
+
+
+  <div class="container bg-light">
+    <div class="row">
+      <!---->
+      <div class="col-12 col-lg-6 marg-top">
+        <div class="container">
+          <div class="row br-white shadow-sm">
+            <div class="col-12 align-center">
+              <h2 class="titulo-novedades">Portatil MSI 3</h2>
+            </div>
+            <div class="col-12 col-md-6">
+  
+              <p class="p-novedades">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group btn-pad">
+                  <small class="text-black bg text-center precio-reverse">100 €</small>
+
+                  <div class="btn-group btn-pad">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                      onclick="location.href='checkout.html'">Comprar ya</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                      onclick="location.href='productos.html'">Ver producto</button>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <img class="pointer" src="imghome/portail1.jpg" onclick="location.href='productos.html'">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---->
+
+      <!---->
+
+      <div class="col-12 col-lg-6 marg-top">
+        <div class="container">
+          <div class="row br-white shadow-sm">
+            <div class="col-12 align-center">
+              <h2 class="titulo-novedades">Portatil MSI 4</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <img class="pointer" src="imghome/portail1.jpg" onclick="location.href='productos.html'">
+            </div>
+            <div class="col-12 col-md-6">
+
+              <p class="p-novedades">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group btn-pad">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"
+                    onclick="location.href='checkout.html'">Comprar ya</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"
+                    onclick="location.href='productos.html'">Ver producto</button>
+                </div>
+                <small class="text-black bg text-center precio">100 €</small>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 
 
 
@@ -181,17 +378,22 @@
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
