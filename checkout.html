@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Enlace a mi hoja de estilos-->
     <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="home.css">
     <title>Finalizar compra</title>
   </head>
   <body>
@@ -40,7 +41,7 @@
 
 
     <!--Titulo Carrito de la compra-->
-    <div class="container text-center">
+    <div class="container text-center encabezado">
         <div class="row">
             <div class="col-12 titulo">
                 <h2>Carrito de la compra</h2>
@@ -57,7 +58,8 @@
     <!-----------------------Articulos y Sumario------------------------------>
     <div class="container ">
         <div class="row">
-            <!--Articulos-->
+            <!--Articulos hecho yo de cero
+
             <div class="col-8 articulos">
                 <div class="row">
                     <div class="col-3">o</div>
@@ -78,6 +80,114 @@
                     <div class="col-3">3</div>
                 </div>
             </div>
+                        -->
+
+
+            <!--Articulos con la plantilla-->                
+            
+            <div class="col-md-12 col-lg-8">
+                <div class="items">
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="img-fluid mx-auto d-block image" src="imgproductos/portatil.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-5 product-name">
+                                            <div class="product-name">
+                                                <a href="#">HP Laptop 15-da1045ns</a>
+                                                <div class="product-info">
+                                                    <div>Tamaño: <span class="value">5 pulgadas</span></div>
+                                                    <div>RAM: <span class="value">4GB</span></div>
+                                                    <div>Capacidad: <span class="value">32GB</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 quantity">
+                                            <label for="quantity">CAntidad:</label>
+                                            <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                                        </div>
+                                        <div class="col-md-3 price">
+                                            <span>100€</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="img-fluid mx-auto d-block image" src="imgproductos/portatil.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-5 product-name">
+                                            <div class="product-name">
+                                                <a href="#">HP Laptop 15-da1045ns</a>
+                                                <div class="product-info">
+                                                    <div>Tamaño: <span class="value">5 pulgadas</span></div>
+                                                    <div>RAM: <span class="value">4GB</span></div>
+                                                    <div>Capacidad: <span class="value">32GB</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 quantity">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                                        </div>
+                                        <div class="col-md-3 price">
+                                            <span>10€</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="img-fluid mx-auto d-block image" src="imgproductos/TV.jfif">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-5 product-name">
+                                            <div class="product-name">
+                                                <a href="#">Toshiba 32WL3A63DG TV</a>
+                                                <div class="product-info">
+                                                    <div>Tamaño: <span class="value">5 pulgadas</span></div>
+                                                    <div>RAM: <span class="value">4GB</span></div>
+                                                    <div>Conectividad: <span class="value">Wifi</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 quantity">
+                                            <label for="quantity">Cantidad:</label>
+                                            <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                                        </div>
+                                        <div class="col-md-3 price">
+                                            <span>100€</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
                <!----Sumario---->
             <div class="col-4 sumario">
                 <div class="row bordeazul">
@@ -129,7 +239,81 @@
 
 
 
+  <!---------------------Footer------------------->
+  <div class="footer sep3">
+    <div class="padding-bot container align-center border-bottom border-secondary">
+      <div class="row">
+        
+        <div class="col-12">
+          <h2 class="footer-2">¡Suscríbete a nuestro boletín y no te pierdas ninguna de nuestras ofertas!</h2>
 
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="Escriba su email" aria-label="">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">¡Suscribirme!</button>
+          </form>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="marg-top padding-bot container border-bottom border-secondary">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <h3>POR QUE COMPRAR</h3>
+          <h6><a href="#">Cómo comprar</a></h6>
+          <h6><a href="#">Novedades</a></h6>
+          <h6><a href="#">Garantías</a></h6>
+          <h6><a href="#">Formas de pago</a></h6>
+
+        </div>
+        <div class="col-12 col-md-3">
+          <h3>QUIENES SOMOS</h3>
+          <h6><a href="#">Privacidad</a></h6>
+          <h6><a href="#">Condiciones de compra</a></h6>
+          <h6><a href="#">Fabricantes</a></h6>
+          <h6><a href="#">Aviso legal y Cookies</a></h6>
+
+        </div>
+        <div class="col-12 col-md-3">
+          <h3>CONTACTAR</h3>
+          <h6><a href="mailto:proyecto@gmail.com">Envianos un email</a></h6>
+          <h6>CIF B999900099</h6>
+          <h6>Ronda de la Bobila s/n Pol. Ind. Pla</h6>
+          <h6>025480 Cornella (Barcelona)</h6>
+
+        </div>
+        
+        
+          <div class="col-12 col-md-3">
+          <h3>Síguenos en</h3>
+          <h6><a href="#">Twitter</a></h6>
+          <h6><a href="#">Faceboock</a></h6>
+
+
+        </div>
+
+      </div>
+    
+
+    </div>
+
+    <div class="marg-top container">
+      <div class="row">
+        <div class="d-flex justify-content-end col-12">
+          <h6>Todos los derechos resevados $copy copyright 2020</h6>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!---------------------Fin del Footer------------------->
 
 
 
