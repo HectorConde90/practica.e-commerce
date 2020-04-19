@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Enlace a mi hoja de estilos-->
-    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="carrito.css">
     <link rel="stylesheet" href="home.css">
     <title>Finalizar compra</title>
   </head>
@@ -47,7 +47,7 @@
                 <h2>Carrito de la compra</h2>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center aviso">
             <div class="col-6 ">
                 <p>En todos los niveles de nuestra compañía estamos trabajando para poner a disposición de los consumidores nuestros 
                     productos. Seguiremos operando, pero los tiempos de envío pueden ser más largos de lo habitual. 
@@ -106,7 +106,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-4 quantity">
-                                            <label for="quantity">CAntidad:</label>
+                                            <label for="quantity">Cantidad:</label>
                                             <input id="quantity" type="number" value ="1" class="form-control quantity-input">
                                         </div>
                                         <div class="col-md-3 price">
@@ -189,37 +189,39 @@
 
 
                <!----Sumario---->
-            <div class="col-4 sumario">
+            <div class="col-md-12 col-lg-4 sumario">
                 <div class="row bordeazul">
                     <div class="col-12 text-center ">
-                        <h3>Sumario</h3>
+                        <h3>Resumen</h3>
                     </div>
                 </div>
                 <div class="row justify-content-between">
                     <div class="col-6 text-left sinmargendcha">
                         <strong>Subtotal</strong>
                         <hr>
-                        <strong>Discount</strong>
+                        <strong>Descuento</strong>
                         <hr>
-                        <strong>Shipping</strong>
+                        <strong>Transporte</strong>
                         <hr>
                         <strong>Total</strong>
                         <hr>
                     </div>
                     <div class="col-6 text-right sinmargenizq">
-                        <strong>€200</strong>
+                        <strong>210€</strong>
                         <hr>
-                        <strong>€100</strong>
+                        <strong>100€</strong>
                         <hr>
-                        <strong>€50</strong>
+                        <strong>50€</strong>
                         <hr>
-                        <strong>€150</p>
+                        <strong>160€</p>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <button type="button" class="btn btn-primary btn-lg">checkout</button>
+                        <a href="productos.html"> 
+                            <button type="button" class="btn btn-primary btn-lg">Cambiar productos</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -228,7 +230,40 @@
 
     <!-------------Payment--------------------->
 
-
+        <section class="payment-form dark">
+          <div class="container">
+            <form>
+              <div class="card-details">
+                <div class="row">
+                  <div class="form-group col-sm-7">
+                    <label for="card-holder">Titular</label>
+                    <input id="card-holder" type="text" class="form-control" placeholder="Card Holder" aria-label="Card Holder" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="form-group col-sm-5">
+                    <label for="">Fecha de caducidad</label>
+                    <div class="input-group expiration-date">
+                      <input type="text" class="form-control" placeholder="MM" aria-label="MM" aria-describedby="basic-addon1">
+                      <span class="date-separator">/</span>
+                      <input type="text" class="form-control" placeholder="YY" aria-label="YY" aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                  <div class="form-group col-sm-8">
+                    <label for="card-number">Tarjeta de credito</label>
+                    <input id="card-number" type="text" class="form-control" placeholder="Card Number" aria-label="Card Holder" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="form-group col-sm-4">
+                    <label for="cvc">CVC</label>
+                    <input id="cvc" type="text" class="form-control" placeholder="CVC" aria-label="Card Holder" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="form-group col-sm-12">
+                    <button type="button" class="btn btn-primary btn-block">Finalizar</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+     
 
 
 
